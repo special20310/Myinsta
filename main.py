@@ -5,7 +5,7 @@ from telegram import (
     InlineKeyboardMarkup,
     InlineKeyboardButton
 )
-from telegram.txt import (
+from telegram.ext import (
     Updater,
     Filters,
     CommandHandler,
